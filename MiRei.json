@@ -1,0 +1,72 @@
+{
+    "launchTime": 1552950000,
+    "gasLimit": 500000000,
+    "extraData": "MiRei Chainterprises",
+    "accounts": [
+        {
+            "address": "0x562418ec31ec02adbdbee5bb891464350d46763c",
+            "balance": 25000000000000000000000000,
+            "energy": 0,
+            "code": "0x6060604052600256",
+            "storage": {
+                "0x0000000000000000000000000000000000000000000000000000000000000001": "0x0000000000000000000000000000000000000000000000000000000000000002"
+            }
+        },
+        {
+            "address": "0x000000007b5001b903c318d7c3ea08c2122f3cc5",
+            "balance": 20000000000000000000000000000,
+            "energy": 100000000000000000000000000
+        },
+        {
+            "address": "0x00000000dd4c260a48dd4cee9ce0ed886b2c885a",
+            "balance": 20000000000000000000000000000,
+            "energy": 100000000000000000000000000
+        },
+        {
+            "address": "0x0000000026734229f89cf4510a6c032af9aa44b3",
+            "balance": 20000000000000000000000000000,
+            "energy": 100000000000000000000000000
+        },
+        {
+            "address": "0x000000002f119af6efe941a0c82dfa2d0b2c29e7",
+            "balance": 20000000000000000000000000000,
+            "energy": 100000000000000000000000000
+        },
+        {
+            "address": "0x000000005dff479885f529f3a7e0a7029e83f74e",
+            "balance": 20000000000000000000000000000,
+            "energy": 100000000000000000000000000
+        }
+    ],
+    "authority": [
+        {
+            "masterAddress": "0x22028a187015602f7c7b2f31094c63ee21187bf4",
+            "endorsorAddress": "0x562418ec31ec02adbdbee5bb891464350d46763c",
+            "identity": "0x000000000000000068747470733a2f2f636f6e6e65782e76656368612e696e2f"
+        },
+        {
+            "masterAddress": "0xb99b86ee4255320013908f5378eb29feba2feb87",
+            "endorsorAddress": "0x562418ec31ec02adbdbee5bb891464350d46763c",
+            "identity": "0x000000000000000068747470733a2f2f656e762e7665636861696e2e6f72672f"
+        },
+        {
+            "masterAddress": "0xe40a3cf1f7753b8c76fb713aa2b8d30b4cb6e2e1",
+            "endorsorAddress": "0x562418ec31ec02adbdbee5bb891464350d46763c",
+            "identity": "0x0000000000000068747470733a2f2f617070732e7665636861696e2e6f72672f"
+        }
+    ],
+    "params": {
+        "rewardRatio": 300000000000000000,
+        "baseGasPrice": 100000000000000,
+        "proposerEndorsement": 25000000000000000000000000,
+        "executorAddress": "0x0000000000000000000000004578656375746f72"
+    },
+    "executor": {
+        "approvers": [
+            {
+                "address": "0xaacb94ec10b1a3dea61466cefaaf1c51aeb0ba6a",
+                "identity": "0x00000000000067656e6572616c20707572706f736520626c6f636b636861696e"
+            }
+        ]
+    }
+}
